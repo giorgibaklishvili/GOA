@@ -11,6 +11,22 @@ num2 = int(input("Enter second number: "))
 num3 = int(input("Enter third number: "))
 
 print(num1 + num2)
+print(num1 + num3)
+print(num2 + num3)
+print(num1 * num2)
+print(num1 **num3)
+print(num2 * num3)
+print(num1 - num2)
+print(num1 - num3)
+print(num1 / num3)
+print(num2 - num3)
+print(num1 / num2)
+print(num2 / num3)
+print(num1 * num1)
+print(num2 * num2)
+print(num3 * num3)
+print(num1 / num1)
+
 
 
 
@@ -67,3 +83,23 @@ print(num1 + num2)
 #print(type(name))
 #print(type(age))
 #print(type(salary))
+
+
+
+
+name1 = input("what is your name: ")
+print(name1)
+age = input("how old are you: ")
+print(age)
+car = input("what is your favorite car: ")
+print(car)
+
+
+
+
+
+
+
+
+
+
