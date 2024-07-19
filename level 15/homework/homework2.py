@@ -1,0 +1,28 @@
+user_items1 = input("enter an item: ")
+user_items2 = input("enter an item: ")
+user_items3 = input("enter an item: ")
+user_items4 = input("enter an item: ")
+user_items5 = input("enter an item: ")
+
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print("__")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+
+price1 = int(input("enter", user_items1, "price: "))
+price2 = int(input("enter",user_items2, "price: "))
+price3 = int(input("enter",user_items3, "price: "))
+price4 = int(input("enter",user_items4, "price: "))
+price5 = int(input("enter",user_items5, "price: "))
+
+print("full pice", price1 + price2 + price3 + price4 + price5) 
+
