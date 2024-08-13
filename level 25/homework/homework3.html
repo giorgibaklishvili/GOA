@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>Scan Configuration</title>
+</head>
+<body>
+    <form>
+        <label for="scanType">Scan for:</label>
+        <select id="scanType" name="scanType">
+            <option value="activeDirectory">Active Directory</option>
+            </select>
+
+        <label for="fqdn">Fully-qualified domain name:</label>
+        <input type="text" id="fqdn" name="fqdn" value="AD.lab.company.com"><br>
+
+        <label for="ou">Organizational Unit:</label>
+        <input type="text" id="ou" name="ou" value="Lab/Engineering/Company"><br>
+
+        <label for="domainController">Domain controller:</label>
+        <input type="text" id="domainController" name="domainController" value="myDomainController"><br>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" value="Administrator"><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br>
+
+        <button type="button">Add to Scan</button>
+        <button type="button">Exclude from Scan</button>
+    </form>
+</body>
+</html>
